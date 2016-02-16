@@ -1,0 +1,23 @@
+
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+nav li > a:hover, nav li > a:focus {
+    background-color: transparent !important;
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 2px solid grey;
+}

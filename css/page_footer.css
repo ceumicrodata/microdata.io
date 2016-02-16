@@ -1,0 +1,31 @@
+.ceu-footer-white {
+    text-align: center;
+    padding-bottom  : 10px;
+}
+.ceu-footer-white img {
+    margin: 15px;
+    width: 60%;  
+}
+.ceu-footer-white h2 {
+    margin-bottom: 50px;
+}
+
+
+.ceu-footer-white > .row > :first-child {
+    padding-top: 4%;
+}
+
+.ceu-footer-grey{
+    padding-top: 30px;
+    padding-bottom  : 30px;
+}
+
+.ceu-footer-grey h3{
+    text-align: left;
+    font-size: 18px;
+}
+.ceu-footer-grey p{
+    text-align: left;
+}
+
+

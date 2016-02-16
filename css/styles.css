@@ -1,0 +1,52 @@
+
+body { 
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  
+  font-size: 13px;
+  color: #4c4c4c;
+  line-height: 110%;
+  
+  background-color: #e8e8e8; 
+  background-image: url('../img/ceumicrodata_bg_white.png');
+  background-position:center top;
+}
+
+a{  color: #0083B0;text-decoration: none;}
+a:hover, a:active{  color: #F36523; text-decoration: underline;}
+
+h1, h2 {
+  font-weight: 300;
+}
+
+h3 { font-weight: 800;}
+h3 a{  color: #4c4c4c;}
+h3 a:hover{ color: #0083B0; text-decoration: none; }
+
+/* uppercase link */
+.ceu-uppercase {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.ceu-col-img {
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+.ceu-lightgrey {
+  color: #aaaaaa;
+}
+
+.ceu-greyBar {
+  padding: 40px;
+  background-color: rgba(0,0,0,0.05);
+  text-align: center;
+}
+.ceu-whiteBar {
+  padding: 40px;
+  background-color: rgba(256,255,255,0.9);
+  text-align: center;
+}
+
+

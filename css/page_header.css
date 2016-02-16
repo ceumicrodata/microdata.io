@@ -1,0 +1,40 @@
+
+
+/* SEARCH BOX */
+
+.ceu-searchbox {
+  border: 1px solid #eeeeee;
+  padding: 20px;
+  
+  background-color: rgba(255,255,255,0.5);
+}
+.ceu-searchbox h2{
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.ceu-searchbox p{
+  font-size: 13px;
+}
+
+
+/* LOGO */
+
+.ceu-logo {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.ceu-logo-text-main {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 800;
+}
+.ceu-logo-text-slogan {
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 110%;
+}

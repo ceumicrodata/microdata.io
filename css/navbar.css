@@ -1,0 +1,80 @@
+/* NAVBAR */
+
+
+@media only screen and (min-width : 768px) {
+  .ceu-navbar-titleContainer{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+ 
+.ceu-navbar-menuContainer {
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+
+.ceu-navbar-titleContainer { 
+  padding-top: 40px;
+  min-height: 130px;
+} 
+
+.ceu-navbar-menuBar {
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  
+   -webkit-transition: background-color .5s; /*Safari */
+  transition: background-color .5s;
+}
+.ceu-navbar-menuBar-fixed {
+  position: fixed;
+  top: 0px;
+  background-color: rgb(255,255,255);   
+
+  -webkit-box-shadow: 0 0px 12px rgba(0,0,0,.175);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 0px 12px rgba(0,0,0,.175);  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 0px 12px rgba(0,0,0,.175);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #aaaaaa; 
+}
+
+.ceu-navbar {
+  /*background-color: rgba(255,255,255,100) !important;   */
+  margin-bottom: 0px; 
+  color: grey;
+}  
+
+/* FIXED NAVBAR - buttons and logo */
+
+.ceu-navbar-menuBar .ceu-navbar-visibleOnFixedNavbar {
+  opacity: 0;
+  -webkit-transition: opacity .5s; /*Safari */
+  transition: opacity .5s;
+}
+.ceu-navbar-menuBar-fixed .ceu-navbar-visibleOnFixedNavbar {
+  opacity: 1;
+}
+.ceu-navbar-menuBar .ceu-navbar-visibleOnFixedNavbar img{
+  margin-top: 11px;
+  width: 0px;
+  -webkit-transition: width .5s; /*Safari */
+  transition: width .5s;  
+}
+.ceu-navbar-menuBar-fixed .ceu-navbar-visibleOnFixedNavbar img{
+  width: 85px;
+
+}
+@media only screen and (max-width : 767px) {
+  .ceu-navbar-menuBar-fixed .ceu-navbar-visibleOnFixedNavbar img{
+    margin-left: 15px;
+  }
+}
+
+.ceu-navbar-placeholder {
+  width:1px;
+  height:60px;
+}

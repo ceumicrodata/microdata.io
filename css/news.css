@@ -1,0 +1,25 @@
+/* MAIN */
+
+.ceu-whitePanel {
+  background-color: #ffffff; 
+  
+   -webkit-box-shadow: 0px 5px 7px 1px rgba(0,0,0,0.31);
+  -moz-box-shadow: 0px 5px 7px 1px rgba(0,0,0,0.31);
+  box-shadow: 0px 5px 7px 1px rgba(0,0,0,0.31);
+  
+  border: 1px solid #eeeeee;
+  margin-bottom: 40px;
+}
+
+/* NEWS */
+
+.ceu-news {
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+.ceu-news img {
+    width: 100%;    
+}
+.ceu-news h3 {
+    margin-top: 0px;
+}
